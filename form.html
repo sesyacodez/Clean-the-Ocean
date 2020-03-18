@@ -14,17 +14,26 @@
         </nav>
     </section>
     <section>
-        <form>
+        <h1>Make a donation here</h1>
+    </section>
+    <section>
+        <form action="https://formspree.io/xbjkynow" method="POST">
             <label>Enter your name:
-                <input type="text" placeholder="Enter your name" required >
+                <input type="text" placeholder="Enter your name" required name="name">
             </label>
-        </form>
+        
         <br>
-        <form>
+        
             <label>Enter your email:
-                <input type="email" placeholder="Enter your email" required >
+                <input type="email" placeholder="Enter your email" required name="email">
             </label>
-        </form>
+        
+        <br>
+         
+            <label>Enter the sum:
+                <input type="text" placeholder="Enter the sum" required name="sum">
+            </label>
+        
         <br>
         <label>
             <input type="radio" name="gender"
@@ -41,6 +50,30 @@
         <br>
         <input type="submit">
         <input type="reset">
+        </form>
+        <main>
+            <h2>How does the amount of your donation can save the ocean?</h2>
+            <section>
+                <table>
+                    <tr>
+                        <td>0.5$</td>
+                        <td>200 fish</td>
+                    </tr>
+                    <tr>
+                        <td>1$</td>
+                        <td>a turtle</td>
+                    </tr>
+                    <tr>
+                        <td>5$</td>
+                        <td>5 dolphins</td>
+                    </tr>
+                    <tr>
+                        <td>10$</td>
+                        <td>a whale</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
         
     
 </body>
